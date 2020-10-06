@@ -18,13 +18,13 @@ CI is the practice of merging all developers' working code to a staged 'Master' 
 ### Using Git hooks
 ### Tests
 
-## 2.Angular & building the client side
+## 2.Angular & building the client side (2 weeks)
 Our tool of choice is Angular - which we will use here to build reusable components to create a reactive User Experience.
 ### Modules, components, events
 ### Posts
 ### Forms
 
-## 3.NodeJS & building the API
+## 3.NodeJS & building the API (2 weeks)
 We move onto using Node (efficiently) to provide appropriate endpoints for our Angular client to consume; all served up by the lightweight Express framework.
 ### RESTful
 ### Express
