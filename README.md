@@ -39,13 +39,13 @@ We've selected MongoDB as the document storage tool for our project. These works
 ### Storing data
 ### Updating client side
 
-## 4.User Authentication
+## 5.User Authentication
 Once the site is working we explore more complex topics in the Angular framework - the most useful being User Authentication. This is pretty much essential for any interactive SPA serving users in a personalised way. 
 ### SPA Authentication
 ### New user on request
 ### Handling tokens
 
-## 5. Testing and errors
+## 6. Testing and errors
 We finish by strenthening up the reliability and scaling of our codebase by improving error handling and developing our test suite. 
 ### Error handling
 ### Improving the testing
