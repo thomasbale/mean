@@ -13,7 +13,7 @@ We make AJAX requests and pass data in JSON format between the client and server
 These worksheets set out the steps to build a fully functioning single page application (SPA) from scratch using the MEAN stack. Our sample project is based around free hosting on Heroku (File server) and MLab (Database) and was developed and tested on Ubuntu 18.04. There are, of course, many different ways to achieve the same results as described here; it is simply a guide for those looking for a rough roadmap of how to proceed.
 
 ## 1.DevOps & Continious Integration (CI)
-CI is the practice of merging all developers' working code to a staged 'Master' branch, testing, then deploying to production. Ideally CI is achieved with integrated and automated testing to ensure that bugs are never introduced on a staging or live environment. Good practices around CI begin at the start of a project before anyone has typed a line of code! 
+CI is the practice of merging all developers' working code to a staged 'Master' branch, testing, then deploying to production. Ideally CI is achieved with integrated and automated testing to ensure that bugs are never introduced on a staging or live environment. Good practices around CI begin at the start of a project before anyone has typed a line of code! Weekly goal is to have every group with working CI & live site!
 ### Hosting: Site & DB
 ### Using Git hooks
 ### Tests
