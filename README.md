@@ -19,11 +19,13 @@ CI is the practice of merging all developers' working code to a staged 'Master' 
 ### Tests
 
 ## 2.Angular & building the client side
+Our tool of choice is Angular - which we will use here to build reusable components to create a reactive User Experience.
 ### Modules, components, events
 ### Posts
 ### Forms
 
 ## 3.NodeJS & building the API
+We move onto using Node (efficiently) to provide appropriate endpoints for our Angular client to consume; all served up by the lightweight Express framework.
 ### RESTful
 ### Express
 ### GET
@@ -31,17 +33,20 @@ CI is the practice of merging all developers' working code to a staged 'Master' 
 ### POST Endpoints
 
 ## 4.MongoDB & persistent storage
+We've selected MongoDB as the document storage tool for our project. These workshops will focus on using a connected Mongo instace running on a completely remote and separate service. 
 ### Angular -> MongoDB
 ### POST
 ### Storing data
 ### Updating client side
 
 ## 4.User Authentication
+Once the site is working we explore more complex topics in the Angular framework - the most useful being User Authentication. This is pretty much essential for any interactive SPA serving users in a personalised way. 
 ### SPA Authentication
 ### New user on request
 ### Handling tokens
 
 ## 5. Testing and errors
+We finish by strenthening up the reliability and scaling of our codebase by improving error handling and developing our test suite. 
 ### Error handling
 ### Improving the testing
 
