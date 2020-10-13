@@ -36,7 +36,13 @@ ng serve
 '''
 
 ## Launch a site!
-http://localhost:4200/
+If you've run the command ng serve: visit http://localhost:4200/ and see the site rendering. This also provides some links to much more comprehensive Angular tutorials.
+
+## MongoDB
+When in production we will host MongoDB remotely, however, it's really useful to have a local version for development and testing. In this step we will locally install Mongo and make sure it's working.
+
+## Loopback API scaffolding
+Finally we want to ensure that Express & Loopback are working to allow us to serve our API in production. Loopback is a great framework for automatically setting up routes based around your chosen data model. 
 
 
 ### Going further
