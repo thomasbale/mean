@@ -28,7 +28,7 @@ It's a MEAN stack so... we are building frontend with Angular and for backend we
 
 
 ## 1.DevOps & Continious Integration (CI)
-CI is the practice of merging all developers' working code to a staged 'Master' branch, testing, then deploying to production. Ideally CI is achieved with integrated and automated testing to ensure that bugs are never introduced on a staging or live environment. Good practices around CI begin at the start of a project before anyone has typed a line of code! 
+CI is the practice of merging all developers' working code to a staged 'Master' branch, testing, then deploying to production. Ideally CI is achieved with integrated and automated testing to ensure that bugs are never introduced on a staging or live environment. Good practices around CI begin at the start of a project before anyone has typed a line of code! Weekly goal is to have every group with working CI & live site!
 ### Hosting: Site & DB
 ### Using Git hooks
 ### Tests
@@ -60,7 +60,7 @@ Once the site is working we explore more complex topics in the Angular framework
 ### New user on request
 ### Handling tokens
 
-## 5. Testing and errors
+## 6. Testing and errors
 We finish by strenthening up the reliability and scaling of our codebase by improving error handling and developing our test suite. 
 ### Error handling
 ### Improving the testing
