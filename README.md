@@ -10,7 +10,22 @@ The client side is the web page which runs in the browser. On the client we use 
 We make AJAX requests and pass data in JSON format between the client and server. We make these requests over a RESTful API
 
 # Worksheet overview
-These worksheets set out the steps to build a fully functioning single page application (SPA) from scratch using the MEAN stack. Our sample project is based around free hosting on Heroku (File server) and MLab (Database) and was developed and tested on Ubuntu 18.04. There are, of course, many different ways to achieve the same results as described here; it is simply a guide for those looking for a rough roadmap of how to proceed.
+These worksheets set out the steps to build a fully functioning single page application (SPA) from scratch using the MEAN stack. The key to building a great app (from a developer persepctive) is to create reusable services to manage all the data calls to your API. The worksheets make use of the following essential tools:
+
+- npm
+- Angular 10
+- NodeJS
+- Express
+- MogoDB
+- Loopback
+
+Our sample project will be hosted using a free Heroku (File server) account and MLab (Database). All the examples were developed and tested on Ubuntu 18.04. There are, of course, many different ways to achieve the same results as described here; it is simply a guide for those looking for a rough roadmap of how to proceed. 
+
+## 0.Getting started
+It's a MEAN stack so... we are building frontend with Angular and for backend we will be using MongoDB, NodeJS and ExpressJS. NodeJS and Express are included in a package called Loopback - which is great tool for quickly building Restful APIs - so we are going to us that. 
+
+
+
 
 ## 1.DevOps & Continious Integration (CI)
 CI is the practice of merging all developers' working code to a staged 'Master' branch, testing, then deploying to production. Ideally CI is achieved with integrated and automated testing to ensure that bugs are never introduced on a staging or live environment. Good practices around CI begin at the start of a project before anyone has typed a line of code! 
@@ -19,15 +34,15 @@ CI is the practice of merging all developers' working code to a staged 'Master' 
 ### Tests
 
 ## 2.Angular & building the client side
-Our tool of choice is Angular - which we will use here to build reusable components to create a reactive User Experience.
+Our tool of choice is Angular - which we will use here to build reusable components to create a reactive user experience.
 ### Modules, components, events
 ### Posts
 ### Forms
 
 ## 3.NodeJS & building the API
-We move onto using Node (efficiently) to provide appropriate endpoints for our Angular client to consume; all served up by the lightweight Express framework.
+We move onto using Node (efficiently) to provide appropriate endpoints for our Angular client to consume; all served up by the lightweight Express framework (via the Loopback package). An endpoint is the means by which the API can route/access the resources requested to perform a task.
 ### RESTful
-### Express
+### Express/Loopback & connecting Angular to API endpoints
 ### GET
 ### Angular HTTP
 ### POST Endpoints
@@ -39,7 +54,7 @@ We've selected MongoDB as the document storage tool for our project. These works
 ### Storing data
 ### Updating client side
 
-## 4.User Authentication
+## 5.User Authentication
 Once the site is working we explore more complex topics in the Angular framework - the most useful being User Authentication. This is pretty much essential for any interactive SPA serving users in a personalised way. 
 ### SPA Authentication
 ### New user on request
